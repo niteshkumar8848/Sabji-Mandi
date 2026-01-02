@@ -217,7 +217,7 @@ git push origin feature/amazing-feature
 ![Desktop Screenshot](images/Screenshots/desktop.png)
 
 ### Mobile View
-![Mobile Screenshot](images/Screenshots/Mobile.jpg)
+<img src="images/Screenshots/Mobile.jpg" alt="Mobile Screenshot" width="300" height="600">
 
 ### Gallery Section
 ![Gallery Screenshot](images/Screenshots/gallery.png)
@@ -228,12 +228,6 @@ git push origin feature/amazing-feature
 - **Ionicons**: For beautiful, free icons
 - **Google Fonts**: For the Poppins typography
 - **Open Source Community**: For inspiration and tools
-
-## 🔄 Version History
-
-- **v1.0.0** - Initial release with core features
-- **v1.1.0** - Added mobile hamburger menu
-- **v1.2.0** - Enhanced button animations and transitions
 
 ---
 
