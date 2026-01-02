@@ -168,7 +168,7 @@ Nepal 🇳🇵
 
 - **📞 Phone**: +977 9800759606
 - **🗺️ Maps**: [View Location](https://maps.app.goo.gl/RahfAbVwPrhojjrx7)
-- **⏰ Hours**: Daily fresh delivery
+- **⏰ Hours**: Daily fresh delivery [5 A.M - 11 A.M]
 
 ## 👨‍💻 Developer
 
