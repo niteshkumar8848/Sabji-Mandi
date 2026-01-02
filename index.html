@@ -11,7 +11,9 @@
     <div class="header-content">
         <!-- <h1 style="color: #ff9c2a; font-weight: bold;">Sabji Mandi - Nandanagar</h1> -->
         <a href="#hero" style="color: #ff9c2a; font-weight: bold; font-size: 30px;">Sabji Mandi</a>
-        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+
+        <button class="hamburger" onclick="toggleMenu()" style="color: aliceblue;">&#9776;</button>
+        
         <nav class="nav-menu">
             <a href="#about">About</a>
             <a href="#products">Products</a>
@@ -28,10 +30,10 @@
     <h2 style="font-size: 60px;color: limegreen;">Fresh Vegetables</h2>
     <h2 style="font-size: 50px;color: tomato;">Healthy Life</h2><br>
     <p>Daily fresh vegetables directly from farmers<br><br>किसानबाट सिधै ल्याइएका दैनिक ताजा तरकारीहरू</p>
-    
-    <button onclick="scrollToSection('about')", style="font-size: medium;color: rgb(255, 255, 255);font-weight: bold;">About Us</button>
 
-    <button onclick="scrollToSection('products')", style="font-size: medium;color: rgb(255, 255, 255);font-weight: bold; margin-left: 10px;">Explore Vegetables</button>
+    <button id="aboutbtn" onclick="scrollToSection('about')" style="font-size: medium;color: rgb(255, 255, 255);font-weight: bold;">About Us</button>
+
+    <button id="probtn" onclick="scrollToSection('products')" style="font-size: medium;color: rgb(255, 255, 255);font-weight: bold; margin-left: 10px;">Explore Vegetables</button>
 
 </div>
 
@@ -189,7 +191,7 @@ We offer fresh, organic, and seasonal vegetables every day at affordable prices.
 
 
 <footer id="footer">
-    <a href="#hero"><p style="color: #ff5100; text-decoration: none; ">© 2026 Sabji Mandi</p></a>
+    <a href="#hero" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><p style="color: #ff5100;">© 2026 Sabji Mandi</p></a>
     <div class="footer-contact">
         📍 Gaidahawa-7, Nandanagar 
         <a href="https://maps.app.goo.gl/RahfAbVwPrhojjrx7" target="_blank" rel="noopener noreferrer" style="color: aqua;">(Maps)</a>

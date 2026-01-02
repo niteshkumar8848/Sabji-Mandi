@@ -76,18 +76,21 @@ color:rgb(255, 255, 255);
 cursor:pointer;
 }
 
-button:hover{
-    background:radial-gradient(limegreen,orange);
-    transition:transform 9ms ease;
+#aboutbtn:hover, #probtn:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
 }
 
-button {
-    transition: background 0.3s ease;
+#aboutbtn, #probtn {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
 }
 
-button.clicked {
-    background: #cc7a00;
+#aboutbtn.clicked, #probtn.clicked {
+    transform: scale(0.95);
 }
+
+
 
 section{padding:80px 40px;}
 
@@ -346,11 +349,13 @@ footer{
         flex-direction: column;
         position: absolute;
         top: 100%;
-        left: 0;
-        width: 100%;
-        background: #267e32;
+        left: 300px;
+        width: 50%;
+        /* background: #267e3265; */
         padding: 10px;
         gap: 10px;
+        text-decoration: underline;
+        color: turquoise;
     }
     .nav-menu.active {
         display: flex;
