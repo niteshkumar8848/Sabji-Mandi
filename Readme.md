@@ -214,13 +214,13 @@ git push origin feature/amazing-feature
 ## 📸 Screenshots
 
 ### Desktop View
-![Desktop Screenshot](https://via.placeholder.com/800x600/267e32/ffffff?text=Desktop+View)
+![Desktop Screenshot](images/Screenshots/desktop.png)
 
 ### Mobile View
-![Mobile Screenshot](https://via.placeholder.com/400x800/267e32/ffffff?text=Mobile+View)
+![Mobile Screenshot](images/Screenshots/Mobile.jpg)
 
 ### Gallery Section
-![Gallery Screenshot](https://via.placeholder.com/800x400/267e32/ffffff?text=Gallery+Section)
+![Gallery Screenshot](images/Screenshots/gallery.png)
 
 ## 🙏 Acknowledgments
 
