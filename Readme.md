@@ -66,11 +66,17 @@ sabji_mandi/
 │   ├── 🥔 potatoes.jpg        # Product image
 │   ├── 🍅 tomatoes.jpg        # Product image
 │   ├── 🥬 green_vegetables.jpeg # Product image
-│   └── 📁 local/              # Local market photos
-│       ├── 🥦 cauliflower.jpg # Local produce
-│       ├── 👥 crowd.jpg       # Market atmosphere
-│       ├── 🧅 onion.jpg       # Local produce
-│       └── 🥕 radish.jpg      # Local produce
+│   ├── 📁 local/              # Local market photos
+│   │   ├── 🥦 cauliflower.jpg # Local produce
+│   │   ├── 👥 crowd.jpg       # Market atmosphere
+│   │   ├── 🧅 onion.jpg       # Local produce
+│   │   └── 🥕 radish.jpg      # Local produce
+│   └── 📁 Screenshots/        # Website screenshots
+│       ├── 💻 desktop.png     # Desktop view screenshot
+│       ├── 📱 Mobile.jpg      # Mobile view screenshot
+│       ├── 🖼️ gallery.png     # Gallery section screenshot
+│       └── 📁 overview/       # Overview animations
+│           └── 🎬 overview.gif # Website overview animation
 └── 📖 README.md               # Project documentation
 ```
 
