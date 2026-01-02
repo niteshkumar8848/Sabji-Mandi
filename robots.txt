@@ -16,4 +16,4 @@ User-agent: Slurp
 Allow: /
 
 # Sitemap location
-Sitemap: https://niteshkumarlodh-portfolio.pages.dev/sabji-mandi/sitemap.xml
+Sitemap: https://mandinandanagar.pages.dev/Sabji-Mandi/sitemap.xml
