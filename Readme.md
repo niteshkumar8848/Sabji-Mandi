@@ -7,7 +7,7 @@
 
 A modern, fully responsive website for **Sabji Mandi**, a local vegetable market in Nandanagar, Nepal. Built with clean code and smooth animations, this website showcases fresh, organic vegetables directly from local farmers, featuring an interactive gallery, customer testimonials, and seamless mobile navigation.
 
-![Sabji Mandi Preview](images/Screenshots/overview/overview.mp4)
+![Sabji Mandi Preview](images/Screenshots/overview/overview.gif)
 
 ## 🌟 Key Features
 
