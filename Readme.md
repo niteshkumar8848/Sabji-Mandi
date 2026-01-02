@@ -41,6 +41,14 @@ A modern, fully responsive website for **Sabji Mandi**, a local vegetable market
 - **Button Effects**: Hover and click animations with scaling
 - **Dynamic Header**: Background changes on scroll for better UX
 
+### 🔍 **SEO Optimization**
+- **Comprehensive Meta Tags**: Title, description, keywords, Open Graph, Twitter Cards
+- **Structured Data**: JSON-LD schema for local business
+- **Search-Friendly URLs**: Clean, descriptive URLs
+- **Image Optimization**: SEO-friendly alt text for all images
+- **Sitemap & Robots.txt**: Proper crawler instructions
+- **Mobile-First**: Optimized for search engines and users
+
 ### 🗺️ **Contact Integration**
 - **Location Details**: Precise address in Nandanagar, Nepal
 - **Google Maps Link**: Direct navigation to physical location
@@ -59,9 +67,11 @@ A modern, fully responsive website for **Sabji Mandi**, a local vegetable market
 
 ```
 sabji_mandi/
-├── 📄 index.html              # Main HTML structure
+├── 📄 index.html              # Main HTML structure with comprehensive SEO
 ├── 🎨 style.css               # Complete styling & responsive design
 ├── ⚡ script.js               # Interactive functionality
+├── 🗺️ sitemap.xml             # XML sitemap for search engines
+├── 🤖 robots.txt              # Robots.txt for crawler instructions
 ├── 🖼️ images/                 # Image assets
 │   ├── 🥔 potatoes.jpg        # Product image
 │   ├── 🍅 tomatoes.jpg        # Product image
