@@ -237,6 +237,6 @@ git push origin feature/amazing-feature
 
 *Made with ❤️ in Nepal 🇳🇵*
 
-[⭐ Star this repo](https://github.com/your-username/sabji-mandi) • [🐛 Report Issues](https://github.com/your-username/sabji-mandi/issues) • [📧 Contact Developer](mailto:niteshkumar@example.com)
+[⭐ Star this repo](https://github.com/niteshkumar8848/Sabji-Mandi) • [🐛 Report Issues](https://github.com/niteshkumar8848/Sabji-Mandi/issues) • [📧 Contact Developer](mailto:niteshkumarlodh@gmail.com)
 
 </div>
