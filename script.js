@@ -2,6 +2,18 @@ function scrollToSection(id){
 document.getElementById(id).scrollIntoView({behavior:'smooth'});
 }
 
+function toggleMenu() {
+    const nav = document.querySelector('.nav-menu');
+    nav.classList.toggle('active');
+}
+
+document.querySelectorAll('.nav-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+        const nav = document.querySelector('.nav-menu');
+        nav.classList.remove('active');
+    });
+});
+
 window.addEventListener('scroll', () => {
     const header = document.querySelector('header');
     if (window.scrollY > 100) {
@@ -45,4 +57,14 @@ window.addEventListener('load', () => {
             showSlides(slideIndex);
         }, 4000);
     }
+});
+
+// Button click effect
+document.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', () => {
+        btn.classList.add('clicked');
+        setTimeout(() => {
+            btn.classList.remove('clicked');
+        }, 300);
+    });
 });
