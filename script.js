@@ -59,12 +59,3 @@ window.addEventListener('load', () => {
     }
 });
 
-// // Button click effect
-// document.querySelectorAll('#aboutbtn, #probtn').forEach(btn => {
-//     btn.addEventListener('click', () => {
-//         btn.classList.add('clicked');
-//         setTimeout(() => {
-//             btn.classList.remove('clicked');
-//         }, 1500); // Keep the longer timeout for mobile compatibility
-//     });
-// });
