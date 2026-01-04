@@ -101,6 +101,11 @@ cursor:pointer;
     z-index: -2;
 }
 
+.hero-video {
+    filter: brightness(0.9) contrast(1.05);
+}
+
+
 /* Dark overlay for readability */
 .hero-overlay {
     position: absolute;
