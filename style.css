@@ -55,7 +55,7 @@ header a:hover {
     color: #ff9c2a;
 }
 
-.hero{
+/* .hero{
 height:100vh;
 background:radial-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('/images/local/crowd.jpg') center/cover;
 display:flex; 
@@ -74,7 +74,50 @@ border-radius:30px;
 background:#ff9c2a; 
 color:rgb(255, 255, 255); 
 cursor:pointer;
+} */
+
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
 }
+
+/* Video */
+.hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -2;
+}
+
+/* Dark overlay for readability */
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.65)
+    );
+    z-index: -1;
+}
+
+/* Content stays above video */
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
 
 #aboutbtn:hover, #probtn:hover {
     transform: scale(1.05);

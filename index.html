@@ -141,17 +141,31 @@
 </header>
 
 <section class="hero" id="hero">
-<div>
-    <h1 style="font-size: 60px;color: limegreen;">Fresh Vegetables</h1>
-    <h2 style="font-size: 50px;color: tomato;">Healthy Life</h2><br>
-    <p>Daily fresh vegetables directly from farmers in Nandanagar<br><br>किसानबाट सिधै ल्याइएका दैनिक ताजा तरकारीहरू</p>
+    <!-- Background Video -->
+    <video class="hero-video" autoplay muted loop playsinline>
+        <source src="/images/intro/intro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 
-    <button id="aboutbtn" onclick="scrollToSection('about')" style="font-size: medium;color: rgb(255, 255, 255);font-weight: bold;" aria-label="Learn more about Sabji Mandi">About Us</button>
+    <!-- Dark overlay -->
+    <div class="hero-overlay"></div>
 
-    <button id="probtn" onclick="scrollToSection('products')" style="font-size: medium;color: rgb(255, 255, 255);font-weight: bold; margin-left: 10px;" aria-label="Browse our fresh vegetable collection">Explore Vegetables</button>
+    <!-- Hero content -->
+    <div class="hero-content">
+        <h1 style="font-size: 60px;color: limegreen;">Fresh Vegetables</h1>
+        <h2 style="font-size: 50px;color: tomato;">Healthy Life</h2><br>
+        <p>
+            Daily fresh vegetables directly from farmers in Nandanagar<br><br>
+            किसानबाट सिधै ल्याइएका दैनिक ताजा तरकारीहरू
+        </p>
 
-</div>
+        <button id="aboutbtn" onclick="scrollToSection('about')">About Us</button>
+        <button id="probtn" onclick="scrollToSection('products')" style="margin-left:10px;">
+            Explore Vegetables
+        </button>
+    </div>
 </section>
+
 
 
 <section id="about">
