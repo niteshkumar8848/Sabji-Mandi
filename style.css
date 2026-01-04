@@ -118,6 +118,16 @@ cursor:pointer;
     z-index: 1;
 }
 
+#aboutbtn, #probtn {
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 20px;
+    background: #ff9c2a; 
+    color: rgb(255, 255, 255); 
+    cursor: pointer;
+    font-size: 16px;
+    margin: 15px;
+}
 
 #aboutbtn:hover, #probtn:hover {
     transform: scale(1.05);
