@@ -55,27 +55,6 @@ header a:hover {
     color: #ff9c2a;
 }
 
-/* .hero{
-height:100vh;
-background:radial-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('/images/local/crowd.jpg') center/cover;
-display:flex; 
-align-items:center; 
-justify-content:center;
-color:rgb(255, 255, 255); 
-text-align:center;
-}
-
-
-.hero button{
-margin-top:50px;
-padding:12px 25px; 
-border:none; 
-border-radius:30px;
-background:#ff9c2a; 
-color:rgb(255, 255, 255); 
-cursor:pointer;
-} */
-
 .hero {
     position: relative;
     height: 100vh;
@@ -101,17 +80,12 @@ cursor:pointer;
     z-index: -2;
 }
 
-.hero-video {
-    filter: brightness(0.9) contrast(1.05);
-}
-
-
 /* Dark overlay for readability */
 .hero-overlay {
     position: absolute;
     inset: 0;
     background: radial-gradient(
-        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.11),
         rgba(0, 0, 0, 0.65)
     );
     z-index: -1;
@@ -131,7 +105,7 @@ cursor:pointer;
     color: rgb(255, 255, 255); 
     cursor: pointer;
     font-size: 16px;
-    margin: 15px;
+    margin: 25px;
 }
 
 #aboutbtn:hover, #probtn:hover {
@@ -290,6 +264,7 @@ footer{
     max-width: 800px;
     margin: 0 auto;
     height: 500px; /* Adjust based on content */
+    
 }
 
 .gallery-inner {
