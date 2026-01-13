@@ -46,10 +46,6 @@ h2{
 a{
     text-shadow: #333 2px 2px 4px;
 }
-/* button{
-    box-shadow: #6b776e 2px 2px 4px;
-    /* text-shadow: #333 2px 2px 4px; */
-} */
 
 header nav {
     display: flex;
