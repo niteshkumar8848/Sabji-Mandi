@@ -122,13 +122,11 @@
 
 <link rel="stylesheet" href="style.css" />
 </head>
-
+<body>
 <header>
     <div class="header-content">
-        <!-- <h1 style="color: #ff9c2a; font-weight: bold;">Sabji Mandi - Nandanagar</h1> -->
-        <a href="#hero" style="color: #ff9c2a; font-weight: bold; font-size: 30px;text-shadow: #333 2px 2px 4px">Sabji Mandi</a>
-
-        <button class="hamburger" onclick="toggleMenu()" style="color: aliceblue;">&#9776;</button>
+        <a href="#hero" class="site-title">Sabji Mandi</a>
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
         
         <nav class="nav-menu">
             <a href="#about">About</a>
@@ -140,196 +138,190 @@
     </div>
 </header>
 
-<section class="hero" id="hero">
-    <!-- Background Video -->
-    <video class="hero-video" autoplay muted loop playsinline>
-        <source src="/images/intro/intro.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+<main>
+    <section class="hero" id="hero">
+        <!-- Background Video -->
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="/images/intro/intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
 
-    <!-- Dark overlay -->
-    <div class="hero-overlay"></div>
+        <!-- Dark overlay -->
+        <div class="hero-overlay"></div>
 
-    <!-- Hero content -->
-    <div class="hero-content">
-        <h1 style="font-size: 60px;color: limegreen;text-shadow: #333 2px 2px 4px">Fresh Vegetables</h1>
-        <h2 style="font-size: 50px;color: tomato;">Healthy Life</h2><br>
-        <p>
-            Daily fresh vegetables directly from farmers in Nandanagar<br><br>
-            किसानबाट सिधै ल्याइएका दैनिक ताजा तरकारीहरू
+        <!-- Hero content -->
+        <div class="hero-content">
+            <h1 class="hero-title">Fresh Vegetables</h1>
+            <h2 class="hero-subtitle">Healthy Life</h2>
+            <p>
+                Daily fresh vegetables directly from farmers in Nandanagar<br>
+                किसानबाट सिधै ल्याइएका दैनिक ताजा तरकारीहरू
+            </p>
+
+            <div class="hero-buttons">
+                <button id="aboutbtn" onclick="scrollToSection('about')">About Us</button>
+                <button id="probtn" onclick="scrollToSection('products')">Explore Vegetables</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Our Sabji Mandi</h2>
+        <p class="center">
+            We offer fresh, organic, and seasonal vegetables every day at affordable prices. Our produce is carefully selected to ensure quality, freshness, and purity. Customer satisfaction and honest service are our top priorities.<br><br>
+            हामी दैनिक रूपमा ताजा, जैविक र मौसमी तरकारीहरू उचित मूल्यमा उपलब्ध गराउँछौं। गुणस्तर, ताजापन र शुद्धता हाम्रो प्राथमिकता हो। ग्राहक सन्तुष्टि र इमानदार सेवा नै हाम्रो मुख्य लक्ष्य हो।
         </p>
+    </section>
 
-        <button id="aboutbtn" onclick="scrollToSection('about')">About Us</button>
-        <button id="probtn" onclick="scrollToSection('products')" style="margin-left:10px;">
-            Explore Vegetables
-        </button>
-    </div>
-</section>
-
-
-
-<section id="about">
-<h2 style="font-size: 30px;color:#ff9c2a;">About Our Sabji Mandi</h2><br>
-<p class="center">
-We offer fresh, organic, and seasonal vegetables every day at affordable prices. Our produce is carefully selected to ensure quality, freshness, and purity. Customer satisfaction and honest service are our top priorities.<br><br>
-हामी दैनिक रूपमा ताजा, जैविक र मौसमी तरकारीहरू उचित मूल्यमा उपलब्ध गराउँछौं। गुणस्तर, ताजापन र शुद्धता हाम्रो प्राथमिकता हो। ग्राहक सन्तुष्टि र इमानदार सेवा नै हाम्रो मुख्य लक्ष्य हो।
-</p>
-</section>
-
-
-<section id="products">
-    <h2 style="font-size: 30px;color:#ff9c2a;">Fresh Vegetables</h2><br>
-    <div class="products">
-        
-        <div class="card">
-            <img src="/images/tomatoes.jpg" alt="Fresh organic tomatoes from Sabji Mandi Nandanagar - Juicy red tomatoes directly from local farmers" />
-            <h3>Tomatoes</h3>
-            <p>Juicy and fresh tomatoes</p>
-        </div>
-        
-        <div class="card">
-            <img src="/images/potatoes.jpg" alt="Premium quality potatoes from Sabji Mandi Nandanagar - Fresh potatoes from local farmers in Nepal" />
-            <h3>Potatoes</h3>
-            <p>Best quality potatoes</p>
-        </div>
-        
-        <div class="card">
-            <img src="/images/green_vegetables.jpeg" alt="Fresh green vegetables from Sabji Mandi Nandanagar - Organic leafy greens and vegetables from local farms" />
-            <h3>Green Vegetables</h3>
-            <p>Healthy leafy vegetables</p>
-        </div>
-        
-        <div class="card">
-            <img src="/images/local/cauliflower.jpg" alt="Fresh cauliflower from Sabji Mandi Nandanagar - Organic cauliflower directly from local farmers" />
-            <h3>Cauliflower</h3>
-            <p>Fresh and healthy cauliflower</p>
-        </div>
-
-        <div class="card">
-            <img src="/images/local/onion.jpg" alt="Fresh onions from Sabji Mandi Nandanagar - Quality onions from local farmers in Nepal" />
-            <h3>Onion</h3>
-            <p>Fresh and healthy onion</p>
-        </div>
-
-        <div class="card">
-            <img src="/images/local/radish.jpg" alt="Fresh radish from Sabji Mandi Nandanagar - Organic radish directly from local farms" />
-            <h3>Radish</h3>
-            <p>Fresh and healthy radish</p>
-        </div>
-
-    </div>
-</section>
-
-<section id="gallery">
-    <h2 style="font-size: 30px;color:#ff9c2a;">Photo Gallery</h2><br>
-    <div class="gallery-carousel">
-        <div class="gallery-inner">
-            <div class="gallery-item active">
-                <img src="/images/tomatoes.jpg" alt="Fresh organic tomatoes from Sabji Mandi Nandanagar - Premium quality tomatoes from local farmers" />
+    <section id="products">
+        <h2 class="section-title">Fresh Vegetables</h2>
+        <div class="products">
+            <div class="card">
+                <img src="/images/tomatoes.jpg" alt="Fresh organic tomatoes from Sabji Mandi Nandanagar - Juicy red tomatoes directly from local farmers" loading="lazy" />
                 <h3>Tomatoes</h3>
                 <p>Juicy and fresh tomatoes</p>
             </div>
-            <div class="gallery-item">
-                <img src="/images/potatoes.jpg" alt="Best quality potatoes from Sabji Mandi Nandanagar - Fresh potatoes directly from local farms" />
+            
+            <div class="card">
+                <img src="/images/potatoes.jpg" alt="Premium quality potatoes from Sabji Mandi Nandanagar - Fresh potatoes from local farmers in Nepal" loading="lazy" />
                 <h3>Potatoes</h3>
                 <p>Best quality potatoes</p>
             </div>
-            <div class="gallery-item">
-                <img src="/images/green_vegetables.jpeg" alt="Healthy green vegetables from Sabji Mandi Nandanagar - Organic leafy greens from local farmers" />
+            
+            <div class="card">
+                <img src="/images/green_vegetables.jpeg" alt="Fresh green vegetables from Sabji Mandi Nandanagar - Organic leafy greens and vegetables from local farms" loading="lazy" />
                 <h3>Green Vegetables</h3>
                 <p>Healthy leafy vegetables</p>
             </div>
-            <div class="gallery-item">
-                <img src="/images/local/cauliflower.jpg" alt="Fresh cauliflower from Sabji Mandi Nandanagar - Organic cauliflower from local farms" />
+            
+            <div class="card">
+                <img src="/images/local/cauliflower.jpg" alt="Fresh cauliflower from Sabji Mandi Nandanagar - Organic cauliflower directly from local farmers" loading="lazy" />
                 <h3>Cauliflower</h3>
                 <p>Fresh and healthy cauliflower</p>
             </div>
-            <div class="gallery-item">
-                <img src="/images/local/onion.jpg" alt="Fresh onions from Sabji Mandi Nandanagar - Quality onions from local farmers in Nepal" />
+
+            <div class="card">
+                <img src="/images/local/onion.jpg" alt="Fresh onions from Sabji Mandi Nandanagar - Quality onions from local farmers in Nepal" loading="lazy" />
                 <h3>Onion</h3>
                 <p>Fresh and healthy onion</p>
             </div>
-            <div class="gallery-item">
-                <img src="/images/local/radish.jpg" alt="Fresh radish from Sabji Mandi Nandanagar - Organic radish directly from local farms" />
+
+            <div class="card">
+                <img src="/images/local/radish.jpg" alt="Fresh radish from Sabji Mandi Nandanagar - Organic radish directly from local farms" loading="lazy" />
                 <h3>Radish</h3>
                 <p>Fresh and healthy radish</p>
             </div>
         </div>
-        <button class="gallery-btn prev" onclick="changeSlide(-1)">&#10094;</button>
-        <button class="gallery-btn next" onclick="changeSlide(1)">&#10095;</button>
-        <div class="gallery-indicators">
-            <span class="dot active" onclick="currentSlide(0)"></span>
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
+    </section>
+
+    <section id="gallery">
+        <h2 class="section-title">Photo Gallery</h2>
+        <div class="gallery-carousel">
+            <div class="gallery-inner">
+                <div class="gallery-item active">
+                    <img src="/images/tomatoes.jpg" alt="Fresh organic tomatoes from Sabji Mandi Nandanagar - Premium quality tomatoes from local farmers" loading="lazy" />
+                    <h3>Tomatoes</h3>
+                    <p>Juicy and fresh tomatoes</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="/images/potatoes.jpg" alt="Best quality potatoes from Sabji Mandi Nandanagar - Fresh potatoes directly from local farms" loading="lazy" />
+                    <h3>Potatoes</h3>
+                    <p>Best quality potatoes</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="/images/green_vegetables.jpeg" alt="Healthy green vegetables from Sabji Mandi Nandanagar - Organic leafy greens from local farmers" loading="lazy" />
+                    <h3>Green Vegetables</h3>
+                    <p>Healthy leafy vegetables</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="/images/local/cauliflower.jpg" alt="Fresh cauliflower from Sabji Mandi Nandanagar - Organic cauliflower from local farms" loading="lazy" />
+                    <h3>Cauliflower</h3>
+                    <p>Fresh and healthy cauliflower</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="/images/local/onion.jpg" alt="Fresh onions from Sabji Mandi Nandanagar - Quality onions from local farmers in Nepal" loading="lazy" />
+                    <h3>Onion</h3>
+                    <p>Fresh and healthy onion</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="/images/local/radish.jpg" alt="Fresh radish from Sabji Mandi Nandanagar - Organic radish directly from local farms" loading="lazy" />
+                    <h3>Radish</h3>
+                    <p>Fresh and healthy radish</p>
+                </div>
+            </div>
+            <button class="gallery-btn prev" aria-label="Previous slide" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="gallery-btn next" aria-label="Next slide" onclick="changeSlide(1)">&#10095;</button>
+            <div class="gallery-indicators">
+                <span class="dot active" aria-label="Slide 1" onclick="currentSlide(0)"></span>
+                <span class="dot" aria-label="Slide 2" onclick="currentSlide(1)"></span>
+                <span class="dot" aria-label="Slide 3" onclick="currentSlide(2)"></span>
+                <span class="dot" aria-label="Slide 4" onclick="currentSlide(3)"></span>
+                <span class="dot" aria-label="Slide 5" onclick="currentSlide(4)"></span>
+                <span class="dot" aria-label="Slide 6" onclick="currentSlide(5)"></span>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="reviews">
-<h2 style="font-size: 30px;color:#ff9c2a;">Customer Reviews</h2><br>
+    <section id="reviews">
+        <h2 class="section-title">Customer Reviews</h2>
+        <div class="reviews">
+            <div class="review">
+                <ion-icon name="chatbubble-ellipses" class="quote-icon"></ion-icon>
+                <p class="review-text">"Very fresh vegetables"</p>
+                <div class="stars">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                </div>
+                <p class="reviewer-name">Nitesh Kumar</p>
+            </div>
+            <div class="review">
+                <ion-icon name="chatbubble-ellipses" class="quote-icon"></ion-icon>
+                <p class="review-text">"Good quality"</p>
+                <div class="stars">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <p class="reviewer-name">Rajkumar</p>
+            </div>
+            <div class="review">
+                <ion-icon name="chatbubble-ellipses" class="quote-icon"></ion-icon>
+                <p class="review-text">"Best mandi"</p>
+                <div class="stars">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                </div>
+                <p class="reviewer-name">Ramesh</p>
+            </div>
+        </div>
+    </section>
 
-<div class="reviews">
-<div class="review">
-    <ion-icon name="chatbubble-ellipses" class="quote-icon"></ion-icon>
-    <p class="review-text">"Very fresh vegetables"</p>
-    <div class="stars">
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-    </div>
-    <p class="reviewer-name">Nitesh Kumar</p>
-</div>
-<div class="review">
-    <ion-icon name="chatbubble-ellipses" class="quote-icon"></ion-icon>
-    <p class="review-text">"Good quality"</p>
-    <div class="stars">
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star-outline"></ion-icon>
-    </div>
-    <p class="reviewer-name">Rajkumar</p>
-</div>
-<div class="review">
-    <ion-icon name="chatbubble-ellipses" class="quote-icon"></ion-icon>
-    <p class="review-text">"Best mandi"</p>
-    <div class="stars">
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-    </div>
-    <p class="reviewer-name">Ramesh</p>
-</div>
-</div>
-</section>
-
-
-<section id="developer">
-<h2 style="font-size: 30px;color:#ff9c2a;">Developer</h2><br>
-<p class="center">This website was developed by <a href="https://niteshkumarlodh-portfolio.pages.dev/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><strong style="color: #ff5100;">Nitesh Kumar</strong></a>.</p>
-</section>
-
+    <section id="developer">
+        <h2 class="section-title">Developer</h2>
+        <p class="center">
+            This website was developed by 
+            <a href="https://niteshkumarlodh-portfolio.pages.dev/" target="_blank" rel="noopener noreferrer" class="developer-link">Nitesh Kumar</a>.
+        </p>
+    </section>
+</main>
 
 <footer id="footer">
-    <a href="#hero" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><p style="color: #ff5100;">© 2026 Sabji Mandi</p></a>
+    <a href="#hero" class="footer-brand">© 2026 Sabji Mandi</a>
     <div class="footer-contact">
         📍 Gaidahawa-7, Nandanagar 
-        <a href="https://maps.app.goo.gl/RahfAbVwPrhojjrx7" target="_blank" rel="noopener noreferrer" style="color: aqua;">(Maps)</a>
+        <a href="https://maps.app.goo.gl/RahfAbVwPrhojjrx7" target="_blank" rel="noopener noreferrer" class="contact-link">(Maps)</a>
         | 📞
-        <a href="https://wa.me/+9779800759606" target="_blank" rel="noopener noreferrer" style="color: aqua;">WhatsApp</a>
+        <a href="https://wa.me/+9779800759606" target="_blank" rel="noopener noreferrer" class="contact-link">WhatsApp</a>
     </div>
-        
-
 </footer>
-
 
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons.js"></script>
