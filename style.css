@@ -42,7 +42,9 @@ header{
 }
 
 header.scrolled {
-    background: var(--bg-header-scrolled);
+    background: #267e329e;
+    backdrop-filter: blur(80px);
+
 }
 
 .header-content {
@@ -139,11 +141,11 @@ header a:hover {
 }
 
 #aboutbtn, #probtn {
-    box-shadow: #6b776e 2px 2px 4px;
     padding: 10px 20px; 
     border: none; 
     border-radius: 20px;
-    background: var(--text-accent); 
+    background: #f4f5f81c;
+    backdrop-filter: blur(8px);
     color: var(--text-primary); 
     cursor: pointer;
     font-size: 16px;
