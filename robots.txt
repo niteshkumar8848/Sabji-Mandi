@@ -16,4 +16,5 @@ User-agent: Slurp
 Allow: /
 
 # Sitemap location
-Sitemap: https://mandinandanagar.pages.dev/Sabji-Mandi/sitemap.xml
+Sitemap: https://mandinandanagar.pages.dev/sitemap.xml
+Host: mandinandanagar.pages.dev

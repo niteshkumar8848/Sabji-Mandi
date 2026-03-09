@@ -9,6 +9,12 @@ A modern, fully responsive website for **Sabji Mandi**, a local vegetable market
 
 ![Sabji Mandi Preview](images/Screenshots/overview/overview.gif)
 
+## 🌐 Live Website
+
+- **Production URL**: [https://mandinandanagar.pages.dev/](https://mandinandanagar.pages.dev/)
+- **Sitemap**: [https://mandinandanagar.pages.dev/sitemap.xml](https://mandinandanagar.pages.dev/sitemap.xml)
+- **Robots**: [https://mandinandanagar.pages.dev/robots.txt](https://mandinandanagar.pages.dev/robots.txt)
+
 ## 🌟 Key Features
 
 ### 🎨 **Modern UI/UX Design**
@@ -42,11 +48,12 @@ A modern, fully responsive website for **Sabji Mandi**, a local vegetable market
 - **Dynamic Header**: Background changes on scroll for better UX
 
 ### 🔍 **SEO Optimization**
-- **Comprehensive Meta Tags**: Title, description, keywords, Open Graph, Twitter Cards
-- **Structured Data**: JSON-LD schema for local business
-- **Search-Friendly URLs**: Clean, descriptive URLs
+- **Comprehensive Meta Tags**: Title, description, keywords, Open Graph, Twitter Cards, geo metadata
+- **Structured Data**: JSON-LD schema for LocalBusiness, WebSite, and FAQPage
+- **Canonical Setup**: Single canonical URL on Cloudflare Pages (`https://mandinandanagar.pages.dev/`)
+- **Local Query Coverage**: Optimized for location variants like `mandi nandanagar`, `sabji mandi nandanagar`, and `sabji mandi nandanagra`
 - **Image Optimization**: SEO-friendly alt text for all images
-- **Sitemap & Robots.txt**: Proper crawler instructions
+- **Sitemap & Robots.txt**: Homepage-focused XML sitemap and crawler-friendly robots policy
 - **Mobile-First**: Optimized for search engines and users
 
 ### 🗺️ **Contact Integration**
@@ -78,7 +85,6 @@ sabji_mandi/
 │   ├── 🥬 green_vegetables.jpeg # Product image
 │   ├── 📁 local/              # Local market photos
 │   │   ├── 🥦 cauliflower.jpg # Local produce
-│   │   ├── 👥 crowd.jpg       # Market atmosphere
 │   │   ├── 🧅 onion.jpg       # Local produce
 │   │   └── 🥕 radish.jpg      # Local produce
 │   └── 📁 Screenshots/        # Website screenshots
@@ -87,7 +93,7 @@ sabji_mandi/
 │       ├── 🖼️ gallery.png     # Gallery section screenshot
 │       └── 📁 overview/       # Overview animations
 │           └── 🎬 overview.gif # Website overview animation
-└── 📖 README.md               # Project documentation
+└── 📖 Readme.md               # Project documentation
 ```
 
 ## 🚀 Quick Start
@@ -176,9 +182,8 @@ White: #ffffff           /* Text on dark backgrounds */
 Gaidahawa-7, Nandanagar  
 Nepal 🇳🇵
 
-- **📞 Phone**: +977 9800759606
 - **🗺️ Maps**: [View Location](https://maps.app.goo.gl/RahfAbVwPrhojjrx7)
-- **⏰ Hours**: Daily fresh delivery [5 A.M - 11 A.M]
+- **⏰ Hours**: Daily [6 A.M - 6 P.M]
 
 ## 👨‍💻 Developer
 
